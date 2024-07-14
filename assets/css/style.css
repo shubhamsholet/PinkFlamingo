@@ -1,22 +1,3 @@
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-toggler {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  .navbar-toggler {
-    margin-top: -2rem;
-    margin-right: -1rem;
-  }
-  #basic-addon1 {
-    font-size: 10px;
-  }
-}
-/* 
-.showInnerDropdownBtn {
-  display: block !important;
-} */
 .navbar-toggler-icon {
   font-size: 1.5rem;
 }
@@ -949,5 +930,20 @@ button.cart {
 
   .navbar-nav {
     gap: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-toggler {
+    margin-top: -2rem;
+    margin-right: -1rem;
+  }
+  #basic-addon1 {
+    font-size: 10px;
   }
 }
