@@ -894,6 +894,9 @@ button.cart {
   .blogArea {
     padding-bottom: 0 !important;
   }
+  .inputArea.col-6 {
+    width: 100% !important;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
