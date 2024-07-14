@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <title>PINKFLAMINGO</title>
+  <!-- custom links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <!-- <link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" /> -->
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="offerHeadline text-center">
+      QUICK BUY! Get up to 25% off on All Stones
+    </div>
+    <div class="container">
+      <div class="row align-items-center py-3">
+        <!-- Logo -->
+        <div class="col-12 col-md-2 text-center text-md-start">
+          <a href="../index.html">
+            <img src="../assets/images/logo.png" alt="Logo" class="img-fluid" />
+          </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="col-10 col-md-9 col-lg-7 my-3 my-md-0">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">
+              <div class="d-flex gap-3 align-items-center">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>Deliver to 110094</span>
+              </div>
+            </span>
+            <input type="text" class="form-control" placeholder="Search for medication & Wellness products.."
+              aria-label="Username" aria-describedby="basic-addon1" />
+            <span class="input-group-text searchIcon" id="basic-addon1">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Purchase Cart Icon -->
+        <div class="col-2 col-md-1 col-lg-1 text-center">
+          <i class="fa fa-cart-plus" aria-hidden="true"></i>
+        </div>
+
+        <!-- Login/Signup Button -->
+        <div class="col-12 col-lg-2 text-center text-md-end">
+          <div class="d-flex loginSingup">
+            <div class="userIcon">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <a href="#" class="">Login</a> / <a href="#" class="">Signup</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <ul class="navbar-nav gap-3 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Product
+                      <i class="fa fa-chevron-down dropChevron" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark productdropdown"
+                      aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li>
+                        <a class="dropdown-item innerDropdownBtn">
+                          <div class="d-flex justify-content-between align-items-center">
+                            Dhoop Cons
+                            <i class="fa fa-angle-right dropChevron" aria-hidden="true"></i>
+                          </div>
+                        </a>
+                        <ul class="dropdown-menu innerDropdown dropdown-menu-dark"
+                          aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li>
+                            <a class="dropdown-item" href="../products/jars.html">Jar Cons</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              Chandan Bamboo Dhoop
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              Backflow Cone Dhoop</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Buddha Red Incense Cone</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">ountain Sandal Dhoop</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Cone Sandal Dhoop</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Incense holders</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Yantras</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Incense Sticks</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Pooja Thali Sets</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Shankh</a></li>
+                      <li><a class="dropdown-item" href="#">Kalash</a></li>
+                      <li><a class="dropdown-item" href="#">Kalash</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Book Rests</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                      <i class="fa fa-chevron-down dropChevron" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ---------------------------------- -->
+  <!-- ---------------------------------- -->
+  <div class="container">
+    <div class="row">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Product</a></li>
+          <li class="breadcrumb-item"><a href="#">Dhoop Cones</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Jar Cones</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- ---------------------------------- -->
+  <div class="container priceCatogery">
+    <div class="row">
+      <div class="d-flex gap-2 ">
+        <div class="dropdown">
+          <button class=" dropdown-toggle" type="button" id="dropdownMenuButtonprice" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Price ($) <i class="fa fa-chevron-down " aria-hidden="true"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonprice">
+            <li class="dropdown-item"> less than $ 1</li>
+            <li class="dropdown-item"> less than $ 2</li>
+            <li class="dropdown-item"> less than $ 3</li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class=" dropdown-toggle" type="button" id="dropdownMenuButtoncategory" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Category <i class="fa fa-chevron-down " aria-hidden="true"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtoncategory">
+            <li class="dropdown-item">Sage</li>
+            <li class="dropdown-item">Lavender</li>
+            <li class="dropdown-item">Eucalptus</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------- -->
+
+  <section class="jarProduct">
+    <div id="data-container" class="container">
+      <!-- <h1>Pagination in HTML CSS & JavaScript</h1> -->
+
+      <div class="card-container row ">
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/DhoopIncense.png" alt="" class="w-100" />
+          </div>
+          <h3>DHOOP INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Aachar.png" alt="" class="w-100" />
+          </div>
+          <h3>HEM INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$1.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Mystic.png" alt="" class="w-100" />
+          </div>
+          <h3>MYSTIC TEMPLE INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper sac">
+            <img src="../assets/images/sac.png" alt="" class="w-100" />
+          </div>
+          <h3>SAC INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$5.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/frankincense.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Ecaplytus.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/lavender.png" alt="" class="w-100" />
+          </div>
+          <h3>LAVENDER INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper ">
+            <img src="../assets/images/sage-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/myrrh.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND MYRRH </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/orange-dhoop.png" alt="" class="w-100" />
+          </div>
+          <h3>ORANGE BLOSSOM INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/musk-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> MUSK INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/bergamot.png" alt="" class="w-100" />
+          </div>
+          <h3>BERGAMOT AND MYRRH
+
+            SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/gardenia.png" alt="" class="w-100" />
+          </div>
+          <h3> GARDENIA INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/yerba.png" alt="" class="w-100" />
+          </div>
+          <h3> YERBA SANTA INCENSE CONES </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/sage.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/lavender.png" alt="" class="w-100" />
+          </div>
+          <h3>LAVENDER INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper ">
+            <img src="../assets/images/sage-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/myrrh.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND MYRRH </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/bergamot.png" alt="" class="w-100" />
+          </div>
+          <h3>BERGAMOT AND MYRRH
+
+            SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/gardenia.png" alt="" class="w-100" />
+          </div>
+          <h3> GARDENIA INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/yerba.png" alt="" class="w-100" />
+          </div>
+          <h3> YERBA SANTA INCENSE CONES </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/sage.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/DhoopIncense.png" alt="" class="w-100" />
+          </div>
+          <h3>DHOOP INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Aachar.png" alt="" class="w-100" />
+          </div>
+          <h3>HEM INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$1.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Mystic.png" alt="" class="w-100" />
+          </div>
+          <h3>MYSTIC TEMPLE INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper sac">
+            <img src="../assets/images/sac.png" alt="" class="w-100" />
+          </div>
+          <h3>SAC INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$5.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/lavender.png" alt="" class="w-100" />
+          </div>
+          <h3>LAVENDER INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper ">
+            <img src="../assets/images/sage-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/myrrh.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND MYRRH </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/DhoopIncense.png" alt="" class="w-100" />
+          </div>
+          <h3>DHOOP INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Aachar.png" alt="" class="w-100" />
+          </div>
+          <h3>HEM INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$1.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/orange-dhoop.png" alt="" class="w-100" />
+          </div>
+          <h3>ORANGE BLOSSOM INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/musk-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> MUSK INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/bergamot.png" alt="" class="w-100" />
+          </div>
+          <h3>BERGAMOT AND MYRRH
+
+            SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/gardenia.png" alt="" class="w-100" />
+          </div>
+          <h3> GARDENIA INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/yerba.png" alt="" class="w-100" />
+          </div>
+          <h3> YERBA SANTA INCENSE CONES </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/sage.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Mystic.png" alt="" class="w-100" />
+          </div>
+          <h3>MYSTIC TEMPLE INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper sac">
+            <img src="../assets/images/sac.png" alt="" class="w-100" />
+          </div>
+          <h3>SAC INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$5.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/frankincense.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Ecaplytus.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/lavender.png" alt="" class="w-100" />
+          </div>
+          <h3>LAVENDER INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper ">
+            <img src="../assets/images/sage-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/myrrh.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND MYRRH </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Mystic.png" alt="" class="w-100" />
+          </div>
+          <h3>MYSTIC TEMPLE INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper sac">
+            <img src="../assets/images/sac.png" alt="" class="w-100" />
+          </div>
+          <h3>SAC INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$5.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/lavender.png" alt="" class="w-100" />
+          </div>
+          <h3>LAVENDER INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper ">
+            <img src="../assets/images/sage-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/myrrh.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND MYRRH </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/lavender.png" alt="" class="w-100" />
+          </div>
+          <h3>LAVENDER INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper ">
+            <img src="../assets/images/sage-insence.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/myrrh.png" alt="" class="w-100" />
+          </div>
+          <h3>FRANKINCENSE AND MYRRH </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/bergamot.png" alt="" class="w-100" />
+          </div>
+          <h3>BERGAMOT AND MYRRH
+
+            SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$3.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/gardenia.png" alt="" class="w-100" />
+          </div>
+          <h3> GARDENIA INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/yerba.png" alt="" class="w-100" />
+          </div>
+          <h3> YERBA SANTA INCENSE CONES </h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/sage.png" alt="" class="w-100" />
+          </div>
+          <h3> SAGE INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$0.75</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/DhoopIncense.png" alt="" class="w-100" />
+          </div>
+          <h3>DHOOP INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Aachar.png" alt="" class="w-100" />
+          </div>
+          <h3>HEM INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$1.05</h4>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/DhoopIncense.png" alt="" class="w-100" />
+          </div>
+          <h3>DHOOP INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$2.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/eucalptyus-2.png" alt="" class="w-100" />
+          </div>
+          <h3> EUCALYPTUS INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$10.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/orange-dhoop.png" alt="" class="w-100" />
+          </div>
+          <h3>ORANGE BLOSSOM INCENSE CONES</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$4.05</h4>
+        </div>
+        <div class="card col-md-3 col-lg-3">
+          <div class="imgWraper">
+            <img src="../assets/images/Aachar.png" alt="" class="w-100" />
+          </div>
+          <h3>HEM INCENSE</h3>
+          <p>4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use</p>
+          <h4>$1.05</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination d-flex w-100 justify-content-center align-items-center mt-4 mb-4 gap-4" id="pagination">
+      <a href="#" id="prev" class="paginationPrevBtn">Previous</a>
+      <a href="#" class="page-link active" data-page="1">1</a>
+      <a href="#" class="page-link" data-page="2">2</a>
+      <a href="#" class="page-link" data-page="3">3</a>
+      <a href="#" class="page-link" data-page="4">4</a>
+      <a href="#" class="page-link" data-page="5">5</a>
+      <a href="#" id="next">Next</a>
+      <!-- <p id="page-numbers"></p> -->
+    </div>
+  </section>
+
+  <!-- ---------------------------------- -->
+  <!-- ---------------------------------- -->
+
+  <!-- footer -->
+  <footer class="text-white">
+    <div class="container">
+      <div class="topRow p-5">
+        <div class="row">
+          <div class="col-lg-6 col-12 col-md-4 d-flex align-items-center gap-2">
+            <i class="fa-regular fa-envelope"></i>
+            <h2>Sign Up To Shop Now</h2>
+          </div>
+          <div class="col-lg-6 col-12 col-md-8">
+            <div class="inputField p-2 d-flex flex-column gap-3 flex-md-row">
+              <input type="email" placeholder="Enter your email" class="border-0" />
+              <button class="text-white">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container-fluid">
+      <div class="bottomRow px-3 py-5">
+        <div class="rows d-flex justify-content-between text-white flex-wrap">
+          <div class="row1 d-flex flex-column">
+            <h3>Contact Us</h3>
+            <a href="">Demo Store</a>
+            <a href=""> No. 1258 Utawala, Nairobi, 01010 Kenya</a>
+            <a href="">+25470101010</a>
+            <a href="">example@gmail.com</a>
+          </div>
+          <div class="row2 d-flex flex-column">
+            <h3>Information</h3>
+
+            <a href="">Privacy Policy</a>
+            <a href=""> Refund Policy</a>
+            <a href="">Shipping Policy</a>
+            <a href="">Terms Of Service</a>
+            <a href=""> Blogs</a>
+          </div>
+          <div class="row3 d-flex flex-column">
+            <h3>Account</h3>
+            <a href="">Demo Store</a>
+            <a href=""> No. 1258 Utawala, Nairobi, 01010 Kenya</a>
+            <a href="">+25470101010</a>
+            <a href="">example@gmail.com</a>
+          </div>
+          <div class="row4 d-flex flex-column">
+            <h3>Quick Links</h3>
+
+            <a href="">Incense Sticks</a>
+            <a href=""> Shankh</a>
+            <a href="">Kalash</a>
+            <a href="">Incense Holders</a>
+          </div>
+          <div class="row5 d-flex flex-column">
+            <h3>Social Media.</h3>
+            <a href="">Follow us on social media and stay updated.</a>
+            <div class="icons d-flex gap-3 mt-3">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- custom js -->
+  <!-- <script src="/path/to/cdn/bootstrap.bundle.min.js"></script> -->
+  <script src="../assets/js/jar.js"></script>
+</body>
+
+</html>

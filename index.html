@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <title>PINKFLAMINGO</title>
+  <!-- custom links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="offerHeadline text-center">
+      QUICK BUY! Get up to 25% off on All Stones
+    </div>
+    <div class="container">
+      <div class="row align-items-center py-3">
+        <!-- Logo -->
+        <div class="col-12 col-md-2 text-center text-md-start">
+          <a href="./index.html">
+            <img src="./assets/images/logo.png" alt="Logo" class="img-fluid" />
+          </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="col-10 col-md-9 col-lg-7 my-3 my-md-0">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">
+              <div class="d-flex gap-3 align-items-center">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>Deliver to 110094</span>
+              </div>
+            </span>
+            <input type="text" class="form-control" placeholder="Search for medication & Wellness products.."
+              aria-label="Username" aria-describedby="basic-addon1" />
+            <span class="input-group-text searchIcon" id="basic-addon1">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Purchase Cart Icon -->
+        <div class="col-2 col-md-1 col-lg-1 text-center">
+          <i class="fa fa-cart-plus" aria-hidden="true"></i>
+        </div>
+
+        <!-- Login/Signup Button -->
+        <div class="col-12 col-lg-2 text-center text-md-end">
+          <div class="d-flex loginSingup">
+            <div class="userIcon">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <a href="#" class="">Login</a> / <a href="#" class="">Signup</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <ul class="navbar-nav gap-3 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Product
+                      <i class="fa fa-chevron-down dropChevron" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu productdropdown dropdown-menu-dark"
+                      aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li>
+                        <a class="dropdown-item innerDropdownBtn">
+                          <div class="d-flex justify-content-between align-items-center">
+                            Dhoop Cons
+                            <i class="fa fa-angle-right dropChevron" aria-hidden="true"></i>
+                          </div>
+                        </a>
+                        <ul class="dropdown-menu innerDropdown dropdown-menu-dark"
+                          aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li>
+                            <a class="dropdown-item" href="./products/jars.html">Jar Cons</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              Chandan Bamboo Dhoop
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              Backflow Cone Dhoop</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Buddha Red Incense Cone</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">ountain Sandal Dhoop</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Cone Sandal Dhoop</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Incense holders</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Yantras</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Incense Sticks</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Pooja Thali Sets</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Shankh</a></li>
+                      <li><a class="dropdown-item" href="#">Kalash</a></li>
+                      <li><a class="dropdown-item" href="#">Kalash</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Book Rests</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                      <i class="fa fa-chevron-down dropChevron" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------- -->
+  <!-- ---------------------------------- -->
+  <section class="bannerArea">
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="item1 d-flex gap-5 align-items-center justify-content-between">
+              <img src="./assets/images/hands.png" class="w-25" alt="" />
+              <h1 class="w-70">
+                Transform Your Mind & Soul: Discover Your Spiritual Path with
+                Our Courses
+              </h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="item2 d-flex gap-5 align-items-center justify-content-between">
+              <img src="./assets/images/hands.png" class="w-25" alt="" />
+              <h1 class="w-70">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+                excepturi.
+              </h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="item3 d-flex gap-5 align-items-center justify-content-between">
+              <img src="./assets/images/hands.png" class="w-25" alt="" />
+              <h1 class="w-70">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Praesentium hic vitae quaerat sit, eum iste?
+              </h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev blogPrev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon d-flex align-items-center justify-content-center" aria-hidden="true">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </span>
+
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next blogNext" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon d-flex align-items-center justify-content-center" aria-hidden="true">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- ---------------------------------- -->
+  <!-- ---------------------------------- -->
+  <section class="categoriesArea pt-5 pb-5">
+    <div class="container">
+      <h5 class="bold">Shop From Our Top Categories</h5>
+
+      <div class="row">
+        <div class="col-12 col-md-4 col-xl-2">
+          <div class="categoriesCard text-center">
+            <img src="./assets/images/cone-dhoop.png" alt="" />
+            <div class="cardTitle bold">Cone Dhoop</div>
+            <a href="#"> Shop Now </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+          <div class="categoriesCard text-center">
+            <img src="./assets/images/incense-holder.png" alt="" />
+            <div class="cardTitle bold">Incense Holder</div>
+            <a href="#"> Shop Now </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+          <div class="categoriesCard text-center">
+            <img src="./assets/images/incense-sticks.png" alt="" />
+            <div class="cardTitle bold">Incense Sticks</div>
+            <a href="#"> Shop Now </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+          <div class="categoriesCard text-center">
+            <img src="./assets/images/shankh.png" alt="" />
+            <div class="cardTitle bold">Shankh</div>
+            <a href="#"> Shop Now </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+          <div class="categoriesCard text-center">
+            <img src="./assets/images/kalash.png" alt="" />
+            <div class="cardTitle bold">Kalash</div>
+            <a href="#"> Shop Now </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-xl-2">
+          <div class="categoriesCard text-center">
+            <img src="./assets/images/buddha.png" alt="" />
+            <div class="cardTitle bold">Buddha Statue</div>
+            <a href="#"> Shop Now </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="whyFlamingo">
+    <div class="container">
+      <h1 class="headTitle text-center bold">Why PINK FLAMINGO?</h1>
+      <div class="row mt-5 align-items-center justify-content-center">
+        <div class="col-12 col-md-4">
+          <div class="flamingoImg text-center p-5">
+            <img src="./assets/images/flamingo.png" alt="" class="w-50 h-75" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <ul class="detailsUl">
+            <li>
+              Spirituality Can Provide Them With A Framework For Understanding
+              The Universe And Their Role In It
+            </li>
+            <li>Coping With Stress And Uncertainty</li>
+            <li>
+              Spirituality Can Be A Path To Personal Growth And Self-Discovery
+            </li>
+            <li>
+              Spirituality Can Provide People With A Sense Of Community And
+              Connection With Others
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blogArea pt-5 pb-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-2 mt-5">
+        <div class="carousel-wrap">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="col px-2">
+                <div class="cardContainer">
+                  <div class="card pb-5">
+                    <img src="./assets/images/blog-girl.png" class="card-img-top" alt="" />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">
+                        The Power Of Mindfulness
+                      </h5>
+                      <p class="card-text">
+                        Mindfulness Is The Practice Of Being Present And Fully
+                        Engaged In The Moment. It Is About Paying Attention To
+                        Our Thoughts, Feelings, And Sensations In A
+                        Non-Judgmental Way.
+                      </p>
+                      <div class="text-center pt-3">
+                        <a href="" class="blogReadMore">Read More</a>
+                      </div>
+                    </div>
+                    <p class="blogDate">08-05-2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col px-2">
+                <div class="cardContainer">
+                  <div class="card pb-5">
+                    <img src="./assets/images/blog-hands.png" class="card-img-top" alt="" />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">
+                        Connecting With The Divine
+                      </h5>
+                      <p class="card-text">
+                        Connecting With The Divine Refers To The Process Of
+                        Establishing A Spiritual Connection Or Relationship
+                        With A Higher Power, Such As God, The Universe, Or A
+                        Higher Consciousness.
+                      </p>
+                      <div class="text-center pt-3">
+                        <a href="" class="blogReadMore">Read More</a>
+                      </div>
+                    </div>
+                    <p class="blogDate">11-06-2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col px-2">
+                <div class="cardContainer">
+                  <div class="card pb-5">
+                    <img src="./assets/images/blog-girl-2.png" class="card-img-top" alt="" />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">
+                        The Beauty Of Forgiveness
+                      </h5>
+                      <p class="card-text">
+                        The Beauty Of Forgiveness Lies In Its Transformative
+                        Power. It Has The Ability To Heal Wounds And To
+                        Restore Relationships That Have Been Damaged.
+                        Forgiveness Brings A New Level Of Understanding.
+                      </p>
+                      <div class="text-center pt-3">
+                        <a href="" class="blogReadMore">Read More</a>
+                      </div>
+                    </div>
+                    <p class="blogDate">11-07-2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- connection -->
+  <section class="connection my-5">
+    <div class="container">
+      <h1 class="text-center mb-5">Let's Connect</h1>
+      <div class="row mt-5">
+        <div class="col-12 col-lg-6 mb-3">
+          <form class="form" autocomplete="on">
+            <div class="row">
+              <div class="inputArea col-6 d-flex align-items-center px-3 py-4">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Name" class="w-100" />
+              </div>
+              <div class="inputArea col-6 d-flex align-items-center px-3 py-4">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" placeholder="Phone Number" class="w-100" />
+              </div>
+            </div>
+            <div class="inputArea d-flex align-items-center mt-3 px-3 py-4">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="Email address" class="w-100" />
+            </div>
+            <div class="inputArea messageBox d-flex mt-3 px-3 py-4">
+              <input type="text" placeholder="Write your message here!" class="w-100" />
+            </div>
+          </form>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="imgWrapper">
+            <img src="./assets/images/contact-img.png" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="text-white">
+    <div class="container">
+      <div class="topRow p-5">
+        <div class="row">
+          <div class="col-lg-6 col-12 col-md-4 d-flex align-items-center gap-2">
+            <i class="fa-regular fa-envelope"></i>
+            <h2>Sign Up To Shop Now</h2>
+          </div>
+          <div class="col-lg-6 col-12 col-md-8">
+            <div class="inputField p-2 d-flex flex-column gap-3 flex-md-row">
+              <input type="email" placeholder="Enter your email" class="border-0" />
+              <button class="text-white">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container-fluid">
+      <div class="bottomRow px-3 py-5">
+        <div class="rows d-flex justify-content-between text-white flex-wrap">
+          <div class="row1 d-flex flex-column">
+            <h3>Contact Us</h3>
+            <a href="">Demo Store</a>
+            <a href=""> No. 1258 Utawala, Nairobi, 01010 Kenya</a>
+            <a href="">+25470101010</a>
+            <a href="">example@gmail.com</a>
+          </div>
+          <div class="row2 d-flex flex-column">
+            <h3>Information</h3>
+
+            <a href="">Privacy Policy</a>
+            <a href=""> Refund Policy</a>
+            <a href="">Shipping Policy</a>
+            <a href="">Terms Of Service</a>
+            <a href=""> Blogs</a>
+          </div>
+          <div class="row3 d-flex flex-column">
+            <h3>Account</h3>
+            <a href="">Demo Store</a>
+            <a href=""> No. 1258 Utawala, Nairobi, 01010 Kenya</a>
+            <a href="">+25470101010</a>
+            <a href="">example@gmail.com</a>
+          </div>
+          <div class="row4 d-flex flex-column">
+            <h3>Quick Links</h3>
+
+            <a href="">Incense Sticks</a>
+            <a href=""> Shankh</a>
+            <a href="">Kalash</a>
+            <a href="">Incense Holders</a>
+          </div>
+          <div class="row5 d-flex flex-column">
+            <h3>Social Media.</h3>
+            <a href="">Follow us on social media and stay updated.</a>
+            <div class="icons d-flex gap-3 mt-3">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- custom js -->
+  <!-- <script src="/path/to/cdn/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/home.js"></script>
+</body>
+
+</html>
