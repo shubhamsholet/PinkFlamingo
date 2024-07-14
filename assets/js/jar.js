@@ -100,10 +100,10 @@ function updatePagination() {
         const page = parseInt(link.getAttribute('data-page')); 
         link.classList.toggle('active', page === currentPage); 
 
-        // window.scrollTo({
-        //     top: 0,
-        //     behavior: 'smooth'
-        // });
+         window.scrollTo({
+             top: 0,
+             behavior: 'smooth'
+         });
     }); 
 } 
 
