@@ -1,6 +1,5 @@
-.navbar-toggler-icon {
-  font-size: 1.5rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 :root {
   --pink: #fa5c98;
@@ -32,7 +31,9 @@ body {
   z-index: 1000;
   background-color: white;
 }
-
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+}
 .offerHeadline {
   background-image: url("../images/header-background.png");
   padding: 0.5rem;
@@ -67,17 +68,14 @@ body {
 }
 
 .loginSingup .userIcon {
-  background-color: var(--pink);
+  /* background-color: var(--pink); */
   width: 1.7rem;
   height: 1.7rem;
   text-align: center;
   border-radius: 50%;
-  margin-right: 0.2rem;
+  margin-right: 0.5rem;
 }
 
-.loginSingup .userIcon i {
-  color: black;
-}
 
 .loginSingup a {
   color: black;
@@ -821,7 +819,9 @@ button.cart {
   color: #c6c6c6;
   content: ">";
 }
-
+#basic-addon1{
+  line-height: 1;
+}
 @media screen and (max-width: 576px) {
   .header {
     position: static;
