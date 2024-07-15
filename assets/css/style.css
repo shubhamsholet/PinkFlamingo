@@ -963,3 +963,9 @@ button.cart {
     font-size: 10px;
   }
 }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .categoriesArea .col-12.col-md-4 {
+    max-width: 50%;
+  }
+}
+
