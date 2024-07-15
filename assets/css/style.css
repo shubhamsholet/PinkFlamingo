@@ -792,7 +792,15 @@ button.cart {
 .addProduct .owl-dots button.owl-dot:focus {
   outline: none;
 }
-
+.addProduct .card .badge,
+.addProduct .card .rounded-circle {
+  position: relative;
+  z-index: 1;
+}
+.addProduct .rounded-circle.text-danger {
+  background: #ea778252 !important;
+  cursor: pointer;
+}
 /* ----- breadcrumb css ----- */
 
 .breadcrumb a {
