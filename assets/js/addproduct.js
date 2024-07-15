@@ -100,15 +100,11 @@ $(".owl-carousel").owlCarousel({
 
 // // add to fav.
 
-// var favlist =  document.querySelectorAll(".addProduct .card .icon")
+const heartIcons = document.querySelectorAll('[id^="heartIcon"]');
 
-// for(i=0; i<favlist.length ; i++){
-//   if(favlist[i].classList.contains('text-danger')){
-//     console.log('contain text-danger ')
-
-//     // favlist[i].addEventListener("click" , ()=>{
-//     //   favlist[i].classList.remove('text-danger')
-//     // })
-//   }
-
-// }
+heartIcons.forEach(heartIcon => {
+  heartIcon.addEventListener('click', () => {
+    console.log(heartIcon.id, heartIcon);
+    heartIcon.classList.toggle('text-danger');
+  });
+});
