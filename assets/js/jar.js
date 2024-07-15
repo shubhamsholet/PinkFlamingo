@@ -86,7 +86,7 @@ function displayPage(page) {
 // Function to update pagination buttons and page numbers 
 function updatePagination() { 
     const pageNumbers = document.getElementById('page-numbers');
-    console.log("pageNumbers",pageNumbers)
+  //  console.log("pageNumbers",pageNumbers)
     // pageNumbers.textContent =  
     //     `Page ${currentPage} of ${totalPages}`; 
     prevButton.disabled = currentPage === 1; 
